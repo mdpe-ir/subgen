@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Add Config</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <h2>Add New Config</h2>
+    <form method="POST" action="/config/add">
+        <label>Name: <input type="text" name="name" required></label><br>
+        <label>Content:<br><textarea name="content" rows="8" cols="40" required></textarea></label><br>
+        <button type="submit">Add Config</button>
+    </form>
+    <a href="/dashboard">Back to Dashboard</a>
+</body>
+
+</html>

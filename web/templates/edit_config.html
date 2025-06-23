@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Config</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <h2>Edit Config</h2>
+    <form method="POST" action="/config/edit/{{.ID}}">
+        <label>Name: <input type="text" name="name" value="{{.Name}}" required></label><br>
+        <label>Content:<br><textarea name="content" rows="8" cols="40" required>{{.Content}}</textarea></label><br>
+        <button type="submit">Save Changes</button>
+    </form>
+    <a href="/dashboard">Back to Dashboard</a>
+</body>
+
+</html>
