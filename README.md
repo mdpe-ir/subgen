@@ -142,3 +142,13 @@ web/
 ## License
 
 MIT
+
+## Contributing
+
+Contributions, bug reports, and feature requests are welcome!
+
+- Fork the repository and create your branch from `main`.
+- Submit a pull request with a clear description of your changes.
+- Open issues for bugs, suggestions, or questions.
+
+Help make Subgen better for everyone!
